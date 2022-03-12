@@ -1,4 +1,4 @@
-package com.movie.dsmovie.Entities;
+package com.movie.movie.Entities;
 
 import java.io.Serializable;
 
@@ -7,8 +7,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
 @Embeddable
-public class ScorePK implements Serializable {
-    
+public class ScorePK implements Serializable{
+    private static final long serialVersionUID = 1L;
 
     @ManyToOne
     @JoinColumn(name = "movie_id")
@@ -22,21 +22,19 @@ public class ScorePK implements Serializable {
 
     }
 
-    public Movie getMovie() {
+    public Movie getMovie(){
         return movie;
     }
 
-    public void setMovie(Movie movie) {
+    public void setMovie(Movie movie){
         this.movie = movie;
     }
 
-    public User getUser() {
+    public User getUser(){
         return user;
     }
 
-    public void setUser(User user) {
+    public void setUser(User user){
         this.user = user;
     }
-
-    
 }

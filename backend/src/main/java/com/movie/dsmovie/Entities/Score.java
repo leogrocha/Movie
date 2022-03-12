@@ -1,4 +1,4 @@
-package com.movie.dsmovie.Entities;
+package com.movie.movie.Entities;
 
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
@@ -9,8 +9,8 @@ import javax.persistence.Table;
 public class Score {
     
     @EmbeddedId
-    private ScorePK id = new ScorePK();
-    private Double value;
+    private ScorePK id = new ScorePK(); // referencia para as classes movie e user
+    private Double value; 
 
     public Score(){
 
