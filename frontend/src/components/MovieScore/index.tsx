@@ -1,20 +1,18 @@
-//import { useState } from "react";
+import { useState } from "react";
 import MovieStars from "../MovieStars";
 import './styles.css';
 
+type Props = {
+    score: number,
+    count: number
+}
 
-const MovieScore = () => {
-    
-    // const [count, setCount] = useState(3.5);
-    // const [score, setScore] = useState(13);
-    const score = 3.5;
-    const count = 13;
-    
+const MovieScore = ({score, count} : Props) => {
     
     return (
         <div className="dsmovie-score-container">
         <p className="dsmovie-score-value">{score > 0 ? score.toFixed(1) : '-'}</p>
-        <MovieStars />
+        <MovieStars score={score}/>
         <p className="dsmovie-score-count">{count} avaliações</p>
     </div>
     )
