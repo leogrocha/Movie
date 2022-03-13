@@ -11,3 +11,6 @@ Front-end: React.js - TypeScript
 
 ![image](https://user-images.githubusercontent.com/56287285/157245600-94b9fd33-a649-409e-9ed7-83604f329ae8.png)
 
+# Link do Deploy do Projeto
+
+https://leogrocha-dsmovie.netlify.app/
