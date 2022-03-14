@@ -5,6 +5,9 @@
 # Técnologias utilizadas
 Back-End: Spring Boot Framework - Java</br>
 Front-end: React.js - TypeScript
+Banco de Dados: Teste(H2) Produção(PostgreSQL)
+Deploy Backend: Heroku
+Deploy Frontend: Netlify
 
 # Prototipação do projeto
 ![image](https://user-images.githubusercontent.com/56287285/157245185-ea7fcc89-d0c8-413b-806d-648c4e73de16.png)
